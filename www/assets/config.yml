@@ -116,6 +116,10 @@ services:
         url: "https://shinobi.thevintagefuture.com/"
         logo: "https://shinobi.video/libs/assets/icon/apple-touch-icon-152x152.png"
         target: '_top'
+      - name: Lidarr
+        url: "https://lidarr.thevintagefuture.com/"
+        logo: "https://lidarr.thevintagefuture.com/favicon.ico/"
+        target: '_top'
 
   - name: "Websites"
     icon: "fas fa-network-wired"
