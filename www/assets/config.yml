@@ -13,7 +13,8 @@ footer: '<img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/
          <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/e3_RSGAu-2/italiapi.svg"> 
          <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/1hp5eC-0-2/truenas.svg">
          <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/vheaWOP0-2/debian.svg">
-         <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/BJschAgO-2/nextcloud.svg">'
+         <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/BJschAgO-2/nextcloud.svg">
+         <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/jDBVvtOH-2/truenas-s3-backup.svg">'
 
 # Optional theme customization
 theme: default
