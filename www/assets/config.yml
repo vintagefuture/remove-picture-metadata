@@ -112,6 +112,10 @@ services:
         url: "https://filebrowser.thevintagefuture.com"
         logo: "https://3149836655-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-M8KDxOujDoPpJyJJ5_i%2Favatar-1590579241040.png?generation=1590579241552005&alt=media"
         target: '_top'
+      - name: Shinobi
+        url: "https://shinobi.thevintagefuture.com/"
+        logo: "https://shinobi.video/libs/assets/icon/apple-touch-icon-152x152.png"
+        target: '_top'
 
   - name: "Websites"
     icon: "fas fa-network-wired"
