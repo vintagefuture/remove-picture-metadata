@@ -118,7 +118,7 @@ services:
         target: '_top'
       - name: Lidarr
         url: "https://lidarr.thevintagefuture.com/"
-        logo: "https://lidarr.thevintagefuture.com/favicon.ico/"
+        logo: "https://github.com/Lidarr/Lidarr/blob/develop/Logo/128.png?raw=true"
         target: '_top'
 
   - name: "Websites"
