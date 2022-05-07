@@ -1,4 +1,4 @@
-# homer
+# Homer
 
 **My personal Homer configuration**
 
