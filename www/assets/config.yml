@@ -1,0 +1,150 @@
+---
+# Homepage configuration
+# See https://fontawesome.com/icons for icons options
+
+title: "Vintagefuture.com"
+subtitle: "Homer"
+logo: "logo.png"
+#icon: "fas fa-skull-crossbones" # Optional icon
+
+header: true
+#footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>' # set false if you want to hide it.
+footer: '<img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/TcDa0KDq-2.svg"> 
+         <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/e3_RSGAu-2/italiapi.svg"> 
+         <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/1hp5eC-0-2/truenas.svg">
+         <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/vheaWOP0-2/debian.svg">
+         <img src="https://healthchecks.io/badge/b32d88c1-37e4-4a44-85e7-87c134/BJschAgO-2/nextcloud.svg">'
+
+# Optional theme customization
+theme: default
+colors:
+  light:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#f5f5f5"
+    card-background: "#ffffff"
+    text: "#363636"
+    text-header: "#ffffff"
+    text-title: "#303030"
+    text-subtitle: "#424242"
+    card-shadow: rgba(0, 0, 0, 0.1)
+    link: "#3273dc"
+    link-hover: "#363636"
+  dark:
+    highlight-primary: "#3367d6"
+    highlight-secondary: "#4285f4"
+    highlight-hover: "#5a95f5"
+    background: "#131313"
+    card-background: "#2b2b2b"
+    text: "#eaeaea"
+    text-header: "#ffffff"
+    text-title: "#fafafa"
+    text-subtitle: "#f5f5f5"
+    card-shadow: rgba(0, 0, 0, 0.4)
+    link: "#3273dc"
+    link-hover: "#ffdd57"
+
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+#links:
+#  - name: "Contribute"
+#    icon: "fab fa-github"
+#    url: "https://github.com/bastienwirtz/homer"
+#    target: "_blank" # optional html a tag target attribute
+#  - name: "Wiki"
+#    icon: "fas fa-book"
+#    url: "https://www.wikipedia.org/"
+#  # this will link to a second homer page that will load config from additional-page.yml and keep default config values as in config.yml file
+#  # see url field and assets/additional-page.yml.dist used in this example:
+#  - name: "another page!"
+#    icon: "fas fa-file-alt"
+#    url: "#additional-page" 
+
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+services:
+  - name: "Applications"
+    icon: "fas fa-cloud"
+    items:
+      - name: "Nginx Proxy Manager"
+        logo: "assets/icons/nginx_proxy.png"
+        url: "https://manage.thevintagefuture.com"
+        target: '_top'
+      - name: "Radarr"
+        logo: "https://radarr.thevintagefuture.com/favicon.ico"
+        url: "https://radarr.thevintagefuture.com"
+        type: "Radarr"
+        apikey: "3ad878fada944deeb112769c3980b12f"
+        target: '_top'
+      - name: "Sonarr"
+        logo: "https://sonarr.thevintagefuture.com/favicon.ico"
+        url: "https://sonarr.thevintagefuture.com"
+        type: "Sonarr"
+        apikey: "ed42564eb08e4e76a423732dafc5f405"
+        target: '_top'
+      - name: "TrueNAS"
+        logo: "https://www.truenas.com/favicon.ico"
+        url: "https://truenas.thevintagefuture.com"
+        target: '_top'
+      - name: "Portainer"
+        logo: "https://www.portainer.io/favicon.ico"
+        url: "https://portainer.thevintagefuture.com"
+        target: '_top'
+      - name: "Nextcloud"
+        logo: "https://nextcloud.com/wp-content/uploads/2022/03/favicon.png"
+        url: "https://nextcloud.thevintagefuture.com"
+        target: '_top'
+      - name: "Jellyfin"
+        url: "http://jellyfin.thevintagefuture.com/"
+        logo: "https://jellyfin.org/favicon.ico"
+        target: '_top'
+      - name: "3CX"
+        url: "https://3cx.thevintagefuture.com/"
+        logo: "https://3cx.thevintagefuture.com/favicon.ico"
+        target: '_top'
+      - name: "Roundcube"
+        url: "https://roundcube.thevintagefuture.com/"
+        logo: "https://roundcube.thevintagefuture.com/favicon.ico"
+        target: '_top'
+      - name: File Browser
+        url: "https://filebrowser.thevintagefuture.com"
+        logo: "https://3149836655-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/spaces%2F-M8KDxOujDoPpJyJJ5_i%2Favatar-1590579241040.png?generation=1590579241552005&alt=media"
+        target: '_top'
+
+  - name: "Websites"
+    icon: "fas fa-network-wired"
+    items:
+      - name: "YouTube"
+        logo: "assets/icons/youtube.png"
+        url: "https://youtube.com"
+        target: '_top'
+      - name: Archlinux wiki
+        url: "https://wiki.archlinux.org/"
+        logo: "https://archlinux.org/favicon.ico"
+        target: '_top'
+      - name: "Gentoo handbook"
+        url: "https://wiki.gentoo.org/wiki/Handbook:AMD64"
+        logo: "https://wiki.gentoo.org/favicon.ico"
+        target: '_top'
+      - name: "AWS console"
+        url: "https://eu-west-1.console.aws.amazon.com/console/home?region=eu-west-1"
+        logo: "https://signin.aws.amazon.com/favicon.ico"
+        target: '_top'
+      - name: "Linode"
+        url: "https://cloud.linode.com/linodes"
+        logo: "https://cloud.linode.com/favicon.ico"
+        target: '_top'
+      - name: Vultr
+        url: "https://my.vultr.com/"
+        logo: "https://my.vultr.com/favicon.ico"
+        target: '_top'
+      - name: Healthchecks.io
+        url: "https://healthchecks.io/projects/210aad41-f28e-40d8-a3a3-66039a9a6224/checks/"
+        logo: "https://healthchecks.io/favicon.ico"
+        target: '_top'
+      - name: "GitHub"
+        url: "https://github.com/vintagefuture"
+        logo: "https://github.com/favicon.ico"
+        target: '_top'
