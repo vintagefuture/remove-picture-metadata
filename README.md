@@ -1,0 +1,1 @@
+# remove-picture-metadata
