@@ -15,3 +15,13 @@ Clear out all the metadata:
 ```
 exiftool -overwrite_original -all=  /path/to/file
 ```
+
+To inspect the metadata, use `imagemagick`:
+
+```
+sudo pacman -S imagemagick
+```
+
+```
+identify -verbose image.png
+```
