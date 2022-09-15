@@ -2,7 +2,7 @@
 
 Before uploading any images to the internet, it's a good idea to remove all the metadata.
 
-This is the simplest way I found on Linux:
+This is the simplest way I've found on Linux:
 
 Install perl-image-exiftool:
 
